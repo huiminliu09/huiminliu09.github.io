@@ -1,0 +1,301 @@
+/*Landing page*/
+
+.navigation-bar{
+	position: fixed;
+	top: 0px;
+	left: 880px;
+	right: 30px;
+	padding-left: 3em;
+}
+.navigation-bar ul{
+	list-style: none;
+	padding: 0;
+}
+.navigation-bar li{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	display: inline-block;
+	padding: 5px;
+	user-select: none;
+	margin: 5px 5px 5px 5px;
+	position: relative;
+	color: white;
+}
+.navigation-bar a:link{
+  color:#FFE4C4;
+  text-decoration: none;
+}
+ .navigation-bar a:visited{
+  color:#FFE4C4;
+  text-decoration: none;
+}
+.navigation-bar a:hover,
+.navigation-bar a:focus{
+  color:white;
+  text-decoration: underline;  
+}
+.actived{
+	text-decoration: underline;
+}
+
+body{
+	background-color: #424874;
+}
+
+#landingbody{
+	
+	color: white;
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 620px;
+}
+#starter{
+	padding: 0px;
+	margin: 200px 0px 100px 0px;
+	border: 0px;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+}
+#starter p{
+	margin-top: 50px;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+.Next-button{
+	margin-bottom: 0px;
+	margin-top:  60px;
+}
+.material-icons{
+	color: white;
+}
+#starter p.quicklink{
+	margin-top: 80px;
+	font-size: 17px;
+}
+.quicklink a:link,{
+  color:white;
+}
+
+.quicklink a:visited{
+  color:white;
+  text-decoration: none;
+}
+.quicklink a:hover,
+.quicklink a:focus{
+  color: #DEB887;
+  text-decoration: underline;  
+  }
+.subheader{
+	width: 200px;
+	border-bottom: 2px solid white;
+	text-align: center;
+	margin: 20px auto 20px auto;
+	letter-spacing: 5px;
+	color:white;
+}
+#landsub{
+	margin-top: 150px;
+	border-top: 2px solid #424874;
+}
+.myprojects{
+	display: flex;
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 100%;
+	height: 530px;
+	flex-wrap: wrap;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+.showcase{
+	margin:20px;
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	color: white;
+}
+.showcase a:link{
+  color:white;
+  text-decoration: none;
+}
+.showcase a:visited{
+  color:white;
+  text-decoration: none;
+}
+.showcase a:hover,
+.showcase a:focus{
+  color:#FFE4C4;
+  text-decoration: underline;  
+}
+.proimg{
+	width: 400px;
+	height: 300px;
+	margin:20px 20px 5px 20px;
+}
+.proname,
+.prodes{
+	margin: 5px;
+	text-align: center;
+}
+
+
+/*Bio page*/
+#myinfo{
+	width:400px; 
+	height:600px;
+	margin:5px 50px;
+	text-align: center;
+	color:white; 
+	float: left;
+}
+
+#myphoto{
+	width: 300px;
+	height: 260px;
+	margin: 20px;
+}
+
+#statement{
+	width: 600px;
+	height: 600px;
+	line-height: 1.5em;
+	font-size: 16px;
+	letter-spacing: 0.8px;
+	float: left;
+	color: white;
+	margin: 20px 10px;
+}
+
+
+/*Portfolio page*/
+.mycase{
+	width: 1100px;
+	height: 300px;
+	margin: 60px 40px 20px 40px;
+	font-size: 18px;
+	border-bottom: 3px dotted white;
+	color:white;
+}
+
+.mycase a:link{
+  color:white;
+  text-decoration: none;
+}
+
+.mycase a:visited{
+  color:white;
+  text-decoration: none;
+}
+.mycase a:hover,
+.mycase a:focus{
+  color: #DEB887;
+  text-decoration: underline;  
+}
+#details{
+	display: inline;
+}
+#details a:link{
+  color: #DEB887;
+  text-decoration: underline;  
+}
+ #details a:visited{
+  color: #DEB887;
+}
+#details a:hover,
+#details a:focus{
+  color: white;
+}
+.caseimg{
+	width: 320px;
+	height: 250px;
+	float: left;
+	margin-left: 50px;
+}
+.caseinfo{
+	float: left;
+	width: 550px;
+	height: 280px;
+	margin: 20px 80px;
+}
+.casename{
+	text-align: center;
+	letter-spacing: 2px;
+}
+.casedes{
+	color: white;
+	display: inline;
+}
+
+#noborder{
+	border: none;
+}
+
+
+/*HowFresh page*/
+.subsubheader{
+	color: white;
+	border: 2px solid white;
+	width: 150px;
+	height: 50px;
+	margin: auto;
+	text-align: center;
+}
+.subheader a:link{
+  color:white;
+  text-decoration: none;
+}
+ .subheader a:visited{
+  color:white;
+  text-decoration: none;
+}
+.subheader a:hover,
+.subheader a:focus{
+  color: #DEB887;
+  text-decoration: underline;  
+}
+#HowFreshinfo{
+	color: white;
+}
+#Overviewimg{
+	width: 450px;
+	height: 350px;
+	margin: 70px 70px 20px 70px;
+	float: left;
+}
+#hfdis{
+	width: 500px;
+	height: 300px;
+	float: left;
+	margin: 110px 20px 20px 20px;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+#motivation{
+	width: 500px;
+	height: 350px;
+	float: left;
+	margin: 30px 70px;
+	padding-right: 40px;
+	border-right: 5px dotted white;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+#description{
+	width: 500px;
+	height: 350px;
+	float: left;
+	margin: 30px 20px;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+#hfshow{
+	width: 850px;
+	height: 450px;
+	margin: 40px 200px;
+}
+
