@@ -6,9 +6,12 @@
         <link rel="stylesheet" type="text/css" href="styles.css"/>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       		rel="stylesheet">
+      	<script src="main.js"></script>
 		
 	</head>
 	<body id="landingbody">
+	 <div>
+		<span class="background-image" role="img" aria-label="Background: Harbour in dawn"> </span>
 		<nav class="navigation-bar">
 			<ul role="menubar">
 				<li class="actived"><a href="index.html">Home</a></li>
@@ -28,11 +31,10 @@
 
 
 		<main>
-			<article id="mainprojects">
-				<div class="subheader" id="landsub">
-					<h2>Projects</h2>
-
-				</div>
+		 <article id="mainprojects">
+			<div class="subheader" id="landsub">
+				<h2>Projects</h2>
+			</div>
 			<div class="myprojects">
 				<div class="showcase">
 					<a href="HowFresh.html"><img class="proimg" src="images/HowFresh.png" alt="HowFresh project image"></a>
@@ -45,9 +47,52 @@
 					<h3 class="proname">Wildfires</h3>
 					<p class="prodes">Wildfires applies machine learning approach to detecting wildfire events based on social media and environmental data.</p>
 				</div>
-			</article>
+			</div>
+		 </article>
+
+		 <article id="contact">
+		 	<div class="subheader">
+				<h2>Contact Me</h2>
+			</div>
+			<div id="Dataform">
+				<form name="DForm" onsubmit="return validateForm()">
+					<div id="firstname">
+						<label for="fname">First name:</label>
+        				<input type="text" id="fname" name="fname">
+					</div>
+					<div id="lastname">
+						<label for="lname">Last name:</label>
+			        	<input type="text" id="lname" name="lname">
+					</div>
+        			<div id="Email">
+        				<label for="email">Email:</label>
+			        	<input type="text" id="email" name="email">
+        			</div>
+			        <div id="Address">
+			        	<label for="address">Address:</label>
+			        	<input type="text" id="address" name="address">
+			        </div>
+			        <div id="Sex">
+			        	<label for="sex">Sex:</label>
+			        	<div id="Male">
+			        		<input type="radio" id="sex" name="sex" value="male">Male
+			        	</div>
+			        	<div id="Female">
+			        		<input type="radio" id="sex" name="sex" value="female">Female<br><br>
+			        	</div>
+			        </div>
+			        <div id="Sub">
+			        	<input type="submit" value="Submit" onclick=onPress()>
+			        </div>
+			        
+			        
+			        
+				</form>
+			</div>
+		 </article>
 
 		</main>
+	</div>
 
 
 	</body>

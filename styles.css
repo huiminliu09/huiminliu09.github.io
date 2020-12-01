@@ -119,17 +119,17 @@ body{
 	color: white;
 }
 .showcase a:link{
-  color:white;
-  text-decoration: none;
+    color:white;
+    text-decoration: none;
 }
 .showcase a:visited{
-  color:white;
-  text-decoration: none;
+    color:white;
+    text-decoration: none;
 }
 .showcase a:hover,
 .showcase a:focus{
-  color:#FFE4C4;
-  text-decoration: underline;  
+    color:#FFE4C4;
+    text-decoration: underline;  
 }
 .proimg{
 	width: 400px;
@@ -140,6 +140,39 @@ body{
 .prodes{
 	margin: 5px;
 	text-align: center;
+}
+#Dataform{
+	width: 800px;
+	height: 500px;
+	margin: 0px 300px;
+}
+#firstname,#lastname,#Email,#Address{
+	display: inline-block;
+	margin-top: 15px;
+}
+#Sex{
+	margin-top: 15px;
+}
+#Male,#Female{
+	margin-left: 50px;
+	margin-bottom: 5px;
+	width: 220px;
+	height: 20px;
+}
+label{
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 6px;
+    text-align: left;
+    width: 100px;
+    vertical-align: top;
+ }
+ input{
+ 	height: 25px;
+ }
+#Sub{
+	margin: 10px auto;
+	width: 300px;
 }
 
 
