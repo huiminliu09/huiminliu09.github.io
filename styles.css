@@ -74,7 +74,7 @@ body{
 	margin-top: 80px;
 	font-size: 17px;
 }
-.quicklink a:link,{
+.quicklink a:link{
   color:white;
 }
 
@@ -86,7 +86,7 @@ body{
 .quicklink a:focus{
   color: #DEB887;
   text-decoration: underline;  
-  }
+}
 .subheader{
 	width: 200px;
 	border-bottom: 2px solid white;
