@@ -135,10 +135,18 @@ body{
 	width: 400px;
 	height: 300px;
 	margin:20px 20px 5px 20px;
+	cursor: pointer;
+	transition: all 0.6s;
+	opacity: 1;
 }
+.proimg:hover{
+	transform: scale(1.06);
+	opacity: 0.7;
+}
+
 .proname,
 .prodes{
-	margin: 5px;
+	margin: 10px;
 	text-align: center;
 }
 #Dataform{
@@ -249,7 +257,16 @@ label{
 	height: 250px;
 	float: left;
 	margin-left: 50px;
+	cursor: pointer;
+	transition: all 0.6s;
+	opacity: 1;
 }
+.caseimg:hover{
+	transform: scale(1.06);
+	opacity: 0.7;
+}
+
+
 .caseinfo{
 	float: left;
 	width: 550px;
