@@ -4,8 +4,7 @@
 		<title>Landing page</title>
 		<meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="styles.css"/>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      		rel="stylesheet">
+      	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       	<script src="main.js"></script>
 		
 	</head>
@@ -25,7 +24,7 @@
 			at Northwestern University</p>
 			<p class="quicklink">Quick links to my <a href="portfolio.html">portfolio</a> and my <a href="Huimin-Resume.pdf">resume.</a></p>
 			<div class="Next-button">
-				<a href="#mainprojects"><i class="material-icons">arrow_circle_down</i></a>
+				<a href="#mainprojects"><i class="fa fa-angle-double-down"></i></a>
         	</div>
 		</div>
 
@@ -56,6 +55,7 @@
 			</div>
 			<div id="Dataform">
 				<form name="DForm" onsubmit="return validateForm()">
+					<h3>Please leave your information:</h3>
 					<div id="firstname">
 						<label for="fname">First name:</label>
         				<input type="text" id="fname" name="fname" aria-label="Firstname" required aria-required="true">
@@ -86,12 +86,25 @@
 			        </div>
 			        <div id="Reset">
 			        	<input type="reset" value="Reset">
-			        </div>
-			        
-			        
-			        
+			        </div>   
 				</form>
 			</div>
+
+			<section class="huimininfo">
+				<h3>Or this is my information:</h3>
+						<div class="Address">
+							<p ><i class="fa fa-map-marker"></i> : 20 Palatine, Irvine, CA</p>
+        				</div>
+        				<div class="Email">
+							<p ><i class="fa fa-envelope-square"></i> : huiminliu22@u.northwestern.edu</p>
+        				</div>
+        				<div class="social">
+							<ul>
+								<li><a href="https://www.facebook.com/huimin.liu.5201/"><i class="fa fa-twitter-square"></i></a></li>
+								<li><a href="#https://github.com/huiminliu09"><i class="fa fa-github"></i></a></li>
+							</ul>
+						</div>
+			</section>
 		 </article>
 
 		</main>

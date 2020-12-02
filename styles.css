@@ -23,17 +23,17 @@
 	color: white;
 }
 .navigation-bar a:link{
-  color:#FFE4C4;
-  text-decoration: none;
+    color:#FFE4C4;
+    text-decoration: none;
 }
  .navigation-bar a:visited{
-  color:#FFE4C4;
-  text-decoration: none;
+    color:#FFE4C4;
+    text-decoration: none;
 }
 .navigation-bar a:hover,
 .navigation-bar a:focus{
-  color:white;
-  text-decoration: underline;  
+    color:white;
+    text-decoration: underline;  
 }
 .actived{
 	text-decoration: underline;
@@ -44,7 +44,6 @@ body{
 }
 
 #landingbody{
-	
 	color: white;
 	background-image: url("images/background.jpg");
 	background-repeat: no-repeat;
@@ -66,26 +65,33 @@ body{
 .Next-button{
 	margin-bottom: 0px;
 	margin-top:  60px;
-}
-.material-icons{
-	color: white;
+	font-size: 50px;
+	color:white;
 }
 #starter p.quicklink{
 	margin-top: 80px;
 	font-size: 17px;
 }
-.quicklink a:link{
-  color:white;
+.quicklink a:link,
+.Next-button a:link,
+.social a:link{
+    color:white;
 }
 
-.quicklink a:visited{
-  color:white;
-  text-decoration: none;
+.quicklink a:visited,
+.Next-button a:visited,
+.social a:visited{
+    color:white;
+    text-decoration: none;
 }
 .quicklink a:hover,
-.quicklink a:focus{
-  color: #DEB887;
-  text-decoration: underline;  
+.quicklink a:focus,
+.Next-button a:hover,
+.Next-button a:focus,
+.social a:hover,
+.social a:focus{
+    color: #DEB887;
+    text-decoration: underline;  
 }
 .subheader{
 	width: 200px;
@@ -139,21 +145,59 @@ body{
 	transition: all 0.6s;
 	opacity: 1;
 }
-.proimg:hover{
+.proimg:hover,
+.proimg:focus{
 	transform: scale(1.06);
 	opacity: 0.7;
 }
-
 .proname,
 .prodes{
 	margin: 10px;
 	text-align: center;
 }
 #Dataform{
-	width: 800px;
-	height: 500px;
-	margin: 0px 300px;
+	width: 600px;
+	height: 300px;
+	margin: 10px 100px;
+	border-right: 3px dotted white;
+	float: left;
 }
+#Dataform h3{
+	border: 2px solid white;
+	width: 300px;
+}
+.huimininfo{
+	float: left;
+	width: 350px;
+}
+.Address,
+.Email{
+	font-size: 17px;
+}
+.social{
+	font-size: 25px;
+	color:white;
+}
+.huimininfo h3{
+	border: 2px solid white;
+	width: 300px;
+	margin-top: 25px;
+}
+
+.social ul{
+	list-style: none;
+	padding: 0;
+}
+.social li{
+	font-family: sans-serif;
+	font-weight: bold;
+	display: inline-block;
+	padding: 5px;
+	user-select: none;
+	margin: 5px 5px 5px 5px;
+	position: relative;
+}
+
 #firstname,#lastname,#Email,#Address{
 	display: inline-block;
 	margin-top: 15px;
@@ -225,32 +269,32 @@ label{
 }
 
 .mycase a:link{
-  color:white;
-  text-decoration: none;
+    color:white;
+    text-decoration: none;
 }
 
 .mycase a:visited{
-  color:white;
-  text-decoration: none;
+    color:white;
+    text-decoration: none;
 }
 .mycase a:hover,
 .mycase a:focus{
-  color: #DEB887;
-  text-decoration: underline;  
+    color: #DEB887;
+    text-decoration: underline;  
 }
 #details{
 	display: inline;
 }
 #details a:link{
-  color: #DEB887;
-  text-decoration: underline;  
+    color: #DEB887;
+    text-decoration: underline;  
 }
  #details a:visited{
-  color: #DEB887;
+    color: #DEB887;
 }
 #details a:hover,
 #details a:focus{
-  color: white;
+    color: white;
 }
 .caseimg{
 	width: 320px;
@@ -261,12 +305,11 @@ label{
 	transition: all 0.6s;
 	opacity: 1;
 }
-.caseimg:hover{
+.caseimg:hover,
+.caseimg:focus{
 	transform: scale(1.06);
 	opacity: 0.7;
 }
-
-
 .caseinfo{
 	float: left;
 	width: 550px;
@@ -297,17 +340,17 @@ label{
 	text-align: center;
 }
 .subheader a:link{
-  color:white;
-  text-decoration: none;
+    color:white;
+    text-decoration: none;
 }
  .subheader a:visited{
-  color:white;
-  text-decoration: none;
+    color:white;
+    text-decoration: none;
 }
 .subheader a:hover,
 .subheader a:focus{
-  color: #DEB887;
-  text-decoration: underline;  
+    color: #DEB887;
+    text-decoration: underline;  
 }
 #HowFreshinfo{
 	color: white;
