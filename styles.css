@@ -330,11 +330,19 @@ label{
 }
 
 
-/*HowFresh page*/
+/*Zoom page*/
 .subsubheader{
 	color: white;
 	border: 2px solid white;
 	width: 150px;
+	height: 50px;
+	margin: auto;
+	text-align: center;
+}
+.Zoomsubsubheader{
+	color: white;
+	border: 2px solid white;
+	width: 300px;
 	height: 50px;
 	margin: auto;
 	text-align: center;
@@ -352,16 +360,19 @@ label{
     color: #DEB887;
     text-decoration: underline;  
 }
-#HowFreshinfo{
+.projectinfo{
 	color: white;
 }
-#Overviewimg{
+#demo{
+	margin-left: 450px;
+}
+.Overviewimg{
 	width: 450px;
 	height: 350px;
 	margin: 70px 70px 20px 70px;
 	float: left;
 }
-#hfdis{
+.hfdis{
 	width: 500px;
 	height: 300px;
 	float: left;
