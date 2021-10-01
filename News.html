@@ -23,21 +23,33 @@
 			</div>
 		
 			<div class="projectinfo">
-				
 				<div class="hfoverview">
-					<img class="Overviewimg" src="images/News.jpg" alt="E- News project image">
+					<div class="demo">
+						<video width="450" height="350" controls="controls">
+							<source src="images/News.mp4" type="video/mp4" />
+						</video>
+					</div>
 					<div class="hfdis">
-						<p>This project mainly includes three parts: News Article ETL, Search Backend Service, Search Frontend. Firstly, we download a WARC from Common Crawl, and loaded them into Elastic Search. Then we provided a REST API to search the news article database. After that, we made a basic React Javascript frontend to present search results. Finally, we deployed the search engine to AWS.</p>
+						<p><br></br>This is a simple news search engine, similar to Google News. Users can search for some News that we obtained from the Common Crawl in the search bar. Then our search engine will return results.</p>
 					</div>	
 				</div>
-				<div id="demo">
-					<video width="360" height="240" controls="controls">
-						<source src="Alex.mp4"  type="video/mp4">
-						</object>
-					</video>
+				<div id="motivation">
+					<h4>Learning objectives:</h4>
+					<ul>
+						<li>Explore the AWS management console</li>
+						<li>Read the documentation for a REST api and write code that makes REST requests</li>
+						<li>Get comfortable developing Java applications using some professional software engineering tools, such as the Maven build system </li>
+					</ul>
 				</div>
-
-
+				<div id="description">
+					<h4>Description:</h4>
+					<p>This project mainly includes three parts:</p>
+					<ul>
+						<li>News Article ETL: download a WARC from Common Crawl, and loaded them into Elastic Search.</li>
+						<li>Search Backend Service: provide a REST API to search the news article database</li>
+						<li>Search Frontend: a basic React Javascript frontend to present search results</li>
+					</ul>
+				</div>
 			</div>
 		</main>
 	</body>
